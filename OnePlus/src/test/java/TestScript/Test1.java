@@ -11,7 +11,7 @@ public class Test1 {
 		
 		WebDriver driver=new ChromeDriver();
 		
-		driver.get("https://www.motorola.in/");
+		driver.get("https://www.apple.in/");
 		
 		driver.findElement(By.linkText("Phones")).click();
 		
