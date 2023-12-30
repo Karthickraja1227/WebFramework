@@ -13,7 +13,7 @@ public class Test1 {
 		
 		driver.get("https://www.apple.in/");
 		
-		driver.findElement(By.linkText("Phones")).click();
+		driver.findElement(By.linkText("Laptop")).click();
 		
 		driver.findElement(By.partialLinkText("edge 40 neo")).click();
 		
